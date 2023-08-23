@@ -89,7 +89,7 @@
 
 .serving{
     height: 600px;
-    background-image: url('/Html/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg');
+    background-image: url('./5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -240,7 +240,7 @@ table{
 }
 .serving2{
     height: 600px;
-    background-image: url('/Html/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg');
+    background-image: url('./5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -349,7 +349,7 @@ table{
     height: 550px;
     width: 100%;
     /* border: 2px solid black;  */
-    background-image: url('/Html/capucino.jpg');
+    background-image: url('./capucino.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -359,7 +359,7 @@ table{
     height: 550px;
     width: 100%;
     /* border: 2px solid black;  */
-    background-image: url('/Html/cup.jpg');
+    background-image: url('./cup.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -369,7 +369,7 @@ table{
     height: 550px;
     width: 100%;
     /* border: 2px solid black;  */
-    background-image: url('/Html/bag.jpg');
+    background-image: url('./bag.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -481,7 +481,7 @@ table{
     margin-left: 70px;
     margin-top: 50px;
     border-radius: 5px;
-    background-image: url('/Html/cofee.jpg');
+    background-image: url('./cofee.jpg');
     position: center;
     background-repeat: no-repeat;
     background-size: cover;
