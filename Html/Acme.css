@@ -1,0 +1,535 @@
+@font-face {
+    font-family: SenR;
+    src: url(font/Sen-Regular.ttf);
+}
+
+@font-face {
+    font-family: SenEB;
+    src: url(font/Sen-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: SenB;
+    src: url(font/Sen-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.covid {
+    height: 60px;
+    background: rgb(20, 20, 19);
+    display: flex;
+    justify-content: center;
+}
+
+.announcement {
+    height: 35px;
+    width: 170px;
+    background: indianred;
+    color: rgb(255, 255, 255);
+    font-family: 'SenR';
+    font-size: 10px;
+    font-weight: lighter;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.covidtext {
+    color: white;
+    line-height: 55px;
+    font-family: 'SenR';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.acme {
+    height: 60px;
+    background: indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.acme > img {
+    width: 100px;
+}
+
+.acme > ul {
+    display: flex;
+    list-style: none;
+}
+
+.acme > ul > li {
+    margin-left: 20px;
+}
+
+.acme > ul > li > a {
+    font-family: 'SenR';
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.acme > ul > li > a:hover {
+    background-color: black;
+}
+
+.serving{
+    height: 600px;
+    background-image: url('/Html/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.horizon{
+    height: 600px;   
+    background: linear-gradient(rgba(130, 130, 131, 0), rgba(7, 7, 7, 0.734)
+   );
+   
+}
+.heroheading{
+    font-family: 'SenB';
+    font-weight: bolder;
+    font-size: 62px;
+    margin-top: 20 ;
+    margin-bottom: 10px;
+    width: 35%;
+    height: auto;
+    color: whitesmoke;
+    
+}
+
+.serving > .horizon {
+    padding-top: 130px;
+    padding-left: 130px;
+}
+.heroparagraph{
+    font-family:'SenR' ;
+    font-weight: 400px;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.submit{
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 7px;
+    font-family: 'SenB';
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.submit:hover{
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 7px;
+    font-family: 'SenB';
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    transition: 0.5s ease;
+    color: black;
+}
+
+
+.support{
+    height: 700px;
+    margin-top: 100px;
+    /* border: 1px solid black; */
+}
+
+.wts{
+    font-family: 'SenR';
+    font-size: 16px;
+    font-weight: 400px normal;
+}
+.sao{
+    font-family: 'SenB';
+    font-size: 40px;
+    font-weight: 700px normal;
+    
+    
+}
+
+.paragraph{
+    font-family: 'SenR';
+    font-size: 16px;
+    font-weight: 700px normal;
+    
+    
+    
+}
+/* .table > tr > td {
+     border: 1px solid black; 
+    
+    
+    
+    
+}*/
+
+table{
+    margin-left: 10%;
+    width: 90%;
+   
+
+}
+.supportwrapper{
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.no1{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: 'SenB';
+    font-weight: 700px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.sp{
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'SenB';
+    font-weight: 700px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.container{
+    height: 100%;
+    width: 25%;
+    /* border: 2px black solid; */
+}
+
+.sptext{
+    font-family: 'SenR';
+    font-weight: 400px;
+    font-size: 16px;
+}
+.serving2{
+    height: 600px;
+    background-image: url('/Html/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.horizon2{
+    height: 600px;
+    background: linear-gradient(rgba(130, 130, 131, 0), rgba(7, 7, 7, 0.734)
+   );
+   
+}
+.heroheading2{
+    font-family: 'SenB';
+    font-weight: bolder;
+    font-size: 62px;
+    margin-top: 20 ;
+    margin-bottom: 10px;
+    text-align: right;
+    height: auto;
+    color: whitesmoke;
+    display: flex;
+    justify-content: right;
+    padding-right: 110px;
+    
+}
+
+.serving2 > .horizon2 {
+    padding-top: 130px;
+    padding-left: 130px;
+}
+.heroparagraph2{
+    font-family:'SenR' ;
+    font-weight: 400px;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-right: 110px;
+
+}
+.submit2{
+    margin-right:110px ;
+    float: right;
+    padding: 5px 25px;
+    border-radius: 7px;
+    font-family: 'SenB';
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.submit2:hover{
+    
+    float: right;
+    padding: 5px 25px;
+    border-radius: 7px;
+    font-family: 'SenB';
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid indianred;
+    background-color: indianred;
+    transition: 0.5s ease;
+    color: whitesmoke;
+}
+.white2{
+    background-color: whitesmoke;
+    height: 1050px;
+    /* border: 10px solid red; */
+    padding-top: 150px;
+}
+
+.shopcontainer{
+    
+    height: 830px;
+    width: 90%;
+    /* border:  2px solid black; */
+    margin: 0 auto;
+    
+    
+}
+.shopp{
+    font-family: 'SenR';
+    font-size: 16px;
+    font-weight: 400px normal;
+    padding-left: 23px;
+}
+.stp{
+    font-family: 'SenB';
+    font-size: 40px;
+    font-weight: 700px;
+    padding-left: 23px;
+}
+.container2{
+    height: 650px;
+    width: 30%;
+    /* border: 2px solid black; */
+    text-align: center;
+    
+}
+.picture2{
+    height: 550px;
+    width: 100%;
+    /* border: 2px solid black;  */
+    background-image: url('/Html/capucino.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.picture3{
+    height: 550px;
+    width: 100%;
+    /* border: 2px solid black;  */
+    background-image: url('/Html/cup.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.picture4{
+    height: 550px;
+    width: 100%;
+    /* border: 2px solid black;  */
+    background-image: url('/Html/bag.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.shoppic{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item{
+    font-family: 'SenR';
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.price{
+    font-family: 'SenB';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.pricecancel{
+    text-decoration:line-through;
+    color: indianred;
+}
+.details{
+    background-color: indianred;
+    border: 2px solid indianred;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 700px;
+    font-family: 'SenB';
+    font-size: 16px;
+    color: whitesmoke;
+
+}
+.details:hover{
+    background-color: black;
+    border: 2px solid black;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 700px;
+    font-family: 'SenB';
+    font-size: 16px;
+    color: whitesmoke;
+    transition: 0.7s ease;
+
+}
+.allproducts{
+    background-color: black;
+    border: 2px solid black;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-top: 60px;
+    font-weight: 700px;
+    font-family: 'SenB';
+    font-size: 16px;
+    color: whitesmoke;
+    
+    
+
+}
+.allproducts:hover{
+    background-color: indianred;
+    border: 2px solid indianred;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-top: 60px;
+    font-weight: 700px;
+    font-family: 'SenB';
+    font-size: 16px;
+    color: whitesmoke;
+    transition: 0.5s ease;
+}
+
+.apd{
+    text-align: center;
+}
+.shoplocal{
+    height: 700px;
+    /* border: 10px solid red; */
+    background-color: whitesmoke;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.slp{
+    height:550px;
+    /* border: 2px solid black; */
+    width: 75%;
+    margin: 0 auto;
+    
+}
+.slr{
+    height: 547px;
+    background-color: rgba(0, 0, 0, 0.851);
+    width: 72%;
+    float: right;
+    border-radius: 5px;
+}
+.sll{
+    height:450px ;
+    width: 20%;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-image: url('/Html/cofee.jpg');
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.allrtxt{
+    height:480px;
+    text-align: left;
+    /* border: solid 2px white; */
+    width: 44%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.slh{
+    font-weight: 700px;
+    font-family: 'SenB';
+    font-size: 45px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+
+}
+.rtxt1{
+    font-weight: 400px;
+    font-family: 'SenR';
+    font-size: 16px;
+    color: whitesmoke;
+    margin-bottom:20px ;
+}
+.rtxt12{
+    font-weight: 400px;
+    font-family: 'SenR';
+    font-size: 16px;
+    color: whitesmoke;
+    ;
+}
+
+.rtxt2{
+    font-weight: 700px;
+    font-family: 'SenB';
+    font-size: 16px;
+    color: whitesmoke;
+    margin-bottom:20px ;
+}
+
+.foot{
+    height: 300px;
+    background-color: black;
+}
